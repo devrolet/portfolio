@@ -1,7 +1,7 @@
 // Full Documentation - https://docs.turbo360.co
-const express = require('express')
-const router = express.Router()
-const controllers = require('../controllers')
+const express = require('express');
+const router = express.Router();
+const controllers = require('../controllers');
 
 router.get('/', (req, res) => {
 	const data = req.context // {cdn:<STRING>, global:<OBJECT>}
@@ -10,13 +10,13 @@ router.get('/', (req, res) => {
 	ctr.get()
 	.then(projects => {
 		data['projects'] = projects
-		const servicesCtr = new controllers.service()
-		return servicesCtr.get()
+		const servicesCtr = new controllers.service();
+		return servicesCtr.get();
 	})
 	.then(services => {
 		data['services'] = services
-		const postsCtr = new controllers.post()
-		return postsCtr.get()
+		const postsCtr = new controllers.post();
+		return postsCtr.get();
 	})
 	.then(posts => {
 		data['posts'] = posts
@@ -47,9 +47,9 @@ router.get('/blog', (req, res) => {
 		res.json({
 			confirmation: 'fail',
 			message: err.message
-		})
-	})
-})
+		});
+	});
+});
 
 // router.get('/blocks', (req, res) => {
 // 	const data = req.context
@@ -57,9 +57,9 @@ router.get('/blog', (req, res) => {
 // })
 
 router.get('/project/:slug', (req, res) => {
-	const data = req.context
+	const data = req.context;
 
-	let ctr = new controllers.project()
+	let ctr = new controllers.project();
 	ctr.get({slug:req.params.slug})
 	.then(posts => {
 		if (posts.length == 0){
