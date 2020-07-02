@@ -30,7 +30,7 @@
           <div class="container">
               <div class="row block-header">
                   <div class="col-sm-8 mx-auto text-center">
-                      <h1 class="display-4 mt-5">What We Do</h1>
+                      <h3 class="display-4 mt-5">What We Do</h3>
                       <hr>
                       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
                   </div>
@@ -59,103 +59,30 @@
           <div class="container py-md-5">
               <div class="row block-header">
                   <div class="col-sm-8 mx-auto text-center">
-                      <h1 class="display-4 mt-2">Our Latest Work</h1>
+                      <h3 class="display-4 mt-2">{{page.projects.header}}</h3>
                       <hr>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
+                      <p class="lead">{{page.projects.subheader}}</p>
                   </div>
               </div>
 
               <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                  {{#projects}}
                   <div class="col-md-4 col-sm-12 mb-2r">
                       <a href="/project/portfolio-2zw61z">
                           <div class="position-relative project">
                               <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_1}}}" class="img-fluid w-100 d-block">
+                                  <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block">
                                   <div class="overlay-box">
                                       <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Revol Music</h5>
-                                          <p>Media Streaming</p>
+                                          <h5 class="mb-0">{{name}}</h5>
+                                          <p>{{category}}</p>
                                       </div>
                                   </div>
                               </div>
                           </div>
                       </a>
                   </div>
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/agency-web-8jcmww">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_2}}}" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Remoted</h5>
-                                          <p>Gig Economy</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/painting-k7u7ow">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_3}}}" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Homebase</h5>
-                                          <p>Media Sharing</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/web-app-ajs763">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_4}}}" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Wifone</h5>
-                                          <p>Communications App</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/business-tyb3es">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_5}}}" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Knile</h5>
-                                          <p>E-Commerce</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/modern-web-44gypc">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{page.gallery.img_6}}}" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">Lizzy List</h5>
-                                          <p>Recipe Sharing and Cloud Storage</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
+                  {{/projects}}
               </div>
           </div>
       </section>
