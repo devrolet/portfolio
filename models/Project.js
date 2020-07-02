@@ -9,7 +9,7 @@
 */
 
 // https://github.com/scottwrobinson/camo
-const Document = require('vertex-camo').Document
+const Document = require('vertex-camo').Document;
 const props = {
   image: {type:String, default:''},
   name: {type:String, default:'', trim:true, display:true},
@@ -28,19 +28,19 @@ const props = {
 class Project extends Document {
 	constructor(){
 		super()
-		this.schema(props)
+		this.schema(props);
 
 		// this is how to set default values on new instances
-		this.timestamp = new Date()
+		this.timestamp = new Date();
 	}
 
 	static get resourceName(){
-		return 'project'
+		return 'project';
 	}
 
 	static collectionName(){
-			return 'projects'
+			return 'projects';
 	}
 }
 
-module.exports = Project
+module.exports = Project;
