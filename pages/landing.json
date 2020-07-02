@@ -1,0 +1,12 @@
+{
+  "image_profile": "https://pbs.twimg.com/profile_images/1211493699068317703/bDvd5Euu_400x400.jpg",
+  "greeting": "Hello, My name is Chet Hill",
+  "introduction": "I am a full stack web developer",
+  "languages": [
+    {"name": "html", "years": 15},
+    {"name": "css", "years": 15},
+    {"name": "javascript", "years": 10},
+    {"name": "swift", "years": 3},
+    {"name": "php", "years": 4}
+  ] 
+}

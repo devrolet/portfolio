@@ -1,8 +1,22 @@
 <html>
-  <head></head>
+  <head>
+    <title>{{global.site_name}}</title>
+  </head>
 
   <body>
-    <h1>{{greeting}}</h1>
-    <h3>{{introduction}}</h3>
+    <img src="{{{page.image_profile}}}" />
+    <h1>{{page.greeting}}</h1>
+    <p>{{page.introduction}}</p>
+
+    <h3>Programming Languages</h3>
+
+    <ol>
+      {{#page.languages}}
+      <li>{{name}}, {{years}} of experience</li>
+      {{/page.languages}}
+    </ol>
+
+    {{>form}}
+
   </body>
 </html>
