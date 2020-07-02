@@ -1,7 +1,28 @@
-{
+{ 
+  
+  "hero": {
+      "greeting": "GoGetter Design",
+      "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
+      "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
+  },
+  "gallery": {
+      "img_1": "https://lh3.googleusercontent.com/6zeQ5R0PtDnGGRin73vxqENxMF5zuESTFEXH98AeiHn_Et4HJo6E_nzWuwgnRPOLhI0rqI7BGQXvsyzIDRqzBFrgfA",
+      "img_2": "https://lh3.googleusercontent.com/AFOZsHkV4Wz1qYKGoNF18gBeMF4q6I78HydCjmBk1fd8OLGXDvh88ZmwjvTuvgxVDiaDg0-HkM5NV9WaQ9hxP3F2hw8",
+      "img_3": "https://lh3.googleusercontent.com/L3Xkm77jLXy_FfsO_3C5H9Mcu3Z8QwbTdTWDggw6xgS5Um5Xtg9h56GOBdeJ-8Dp1zvM3h1EyOgVgy45CSUcAfSm",
+      "img_4": "https://lh3.googleusercontent.com/IHd860xF3eXnK2coqtTnsMD0ciXK-BMQ5rLgK320uslofVP-bnFnXix6P35ChHKWhXWGSn798CGY4ZRXsMAaU00V2g",
+      "img_5": "https://lh3.googleusercontent.com/zvs4i1VhDFY6t6dIuOKFn-g_SBWySTAp0v4Ye5Ube6R8vJlJABUMfkvAIR3oIsd1n_8h6c_YN-HzPgm85UAUv9IpaA",
+      "img_6": "https://lh3.googleusercontent.com/J6N5tZLwrnYiQpxlr5CP01symJcenAEY1LL0bhMTrkfqjpKmPWo9KQWUv4f9J3WWxedgCgxdvVqr3OQLKf3LiRqC43I"
+  },
+  "features":{
+    "feature-1": {
+        "img_1": "https://lh3.googleusercontent.com/2xE3nFpetHo-ypbcA-V0PxBYXavO1Viba6zKKnOnlMmiIbZpjUE-43f23qb6PUiZ_LJN1f_MRD5X7cae3pd3MR77ww",
+        "img_2": "https://lh3.googleusercontent.com/BnafqiS-WCKqtIVUr3I6NZ7CfhWcC4totDl5uWAvsQwMKh6TSa5GtdFrAjKUdv0J84H1pY1x_gdN9-O94qFV0ADX_t8",
+        "img_3": "https://lh3.googleusercontent.com/1aAg8EhHd5kQMsDzgwcctExCzV6ZMEebcqXU_iFm_GoLrBYDcqWmh8GeWok_ILS_1Dt1yQughMeCQYx-3mM9FXtLAg"
+    }
+  },
   "image_profile": "https://pbs.twimg.com/profile_images/1211493699068317703/bDvd5Euu_400x400.jpg",
   "greeting": "Hello, My name is Chet Hill",
-  "introduction": "I am a full stack web developer",
+  "introduction": "I am a full stack software developer",
   "languages": [
     {"name": "html", "years": 15},
     {"name": "css", "years": 15},
