@@ -1,233 +1,200 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <title>GoGetter Design</title>
-    <meta name="description" content="" />
+    <head>
+        <title>GoGetter Design</title>
+        <meta name="description" content="Web and Mobile App development firm specializing in iOS and MEAN/MERN stack projects." />
 
-    {{>head}}
-</head>
+        {{>head}}
+    </head>
 
-<body>
-    <div class="blocks-page">
-        {{>header2}}
+    <body>
+        <div class="blocks-page">
+            {{>header2}}
 
-        <section class="bg-white py-4">
-          <div class="container pt-4">
-              <div class="row align-items-center justify-content-around header-row">
-                  <div class="col-12 col-md-5 col-lg-5 text-center text-md-left">
-                      <h1 class="display-4 mobile-header">{{ page.hero.greeting }}</h1>
-                      <p class="lead mt-3">{{ page.hero.introduction }}</p>
-                      <a href="#" class="btn btn-success btn-lg">Get Started Now</a>
-                  </div>
-                  <div class="col-md-7">
-                      <img alt="Image" src="{{{page.hero.img_background}}}" class="box-shadow img-fluid" />
-                  </div>
-              </div>
-          </div>
-      </section>
+            <section class="bg-white py-4">
+            <div class="container pt-4">
+                <div class="row align-items-center justify-content-around header-row">
+                    <div class="col-12 col-md-5 col-lg-5 text-center text-md-left">
+                        <h1 class="display-4 mobile-header">{{ page.hero.greeting }}</h1>
+                        <p class="lead mt-3">{{ page.hero.introduction }}</p>
+                        <a href="tel:14703770910" class="btn btn-success btn-lg">Contact Us Today</a>
+                    </div>
+                    <div class="col-md-7">
+                        <img alt="Image" src="{{{page.hero.img_background}}}" class="box-shadow img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <section class="py-md-5 block">
-          <div class="container">
-              <div class="row block-header">
-                  <div class="col-sm-8 mx-auto text-center">
-                      <h3 class="display-4 mt-5">What We Do</h3>
-                      <hr>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
-                  </div>
-              </div>
-              <div class="row mt-5 text-center">
-                  <div class="col-md-6 col-xl-4">
-                      <p class="feature-icon"><img src="{{{page.features.feature-1.img_1}}}" alt=""/></p>
-                      <h5>UI/UX Design</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                  </div>
-                  <div class="col-md-6 col-xl-4">
-                      <p class="feature-icon"><img src="{{{page.features.feature-1.img_2}}}" alt=""/></p>
-                      <h5>App Development</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                  </div>
-                  <div class="col-md-6 col-xl-4">
-                      <p class="feature-icon"><img src="{{{page.features.feature-1.img_2}}}" alt=""/></p>
-                      <h5>Consulting</h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <section class="py-md-5 block">
+            <div class="container">
+                <div class="row block-header">
+                    <div class="col-sm-8 mx-auto text-center">
+                        <h3 class="display-4 mt-5">{{page.features.header}}</h3>
+                        <hr>
+                        <p class="lead">{{page.features.subheader}}</p>
+                    </div>
+                </div>
+                <div class="row mt-5 text-center">
+                    <div class="col-md-6 col-xl-4">
+                        <p class="feature-icon"><img src="{{{page.features.feature-1.img_3}}}" alt=""/></p>
+                        <h5>UI/UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <p class="feature-icon"><img src="{{{page.features.feature-1.img_2}}}" alt=""/></p>
+                        <h5>App Development</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <p class="feature-icon"><img src="{{{page.features.feature-1.img_1}}}" alt=""/></p>
+                        <h5>Consulting</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <section class="py-5 py-md-7">
-          <div class="container py-md-5">
-              <div class="row block-header">
-                  <div class="col-sm-8 mx-auto text-center">
-                      <h3 class="display-4 mt-2">{{page.projects.header}}</h3>
-                      <hr>
-                      <p class="lead">{{page.projects.subheader}}</p>
-                  </div>
-              </div>
+        <section class="py-5 py-md-7">
+            <div class="container py-md-5">
+                <div class="row block-header">
+                    <div class="col-sm-8 mx-auto text-center">
+                        <h3 class="display-4 mt-2">{{page.projects.header}}</h3>
+                        <hr>
+                        <p class="lead">{{page.projects.subheader}}</p>
+                    </div>
+                </div>
 
-              <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                  {{#projects}}
-                  <div class="col-md-4 col-sm-12 mb-2r">
-                      <a href="/project/{{slug}}">
-                          <div class="position-relative project">
-                              <div class="image position-relative ">
-                                  <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block">
-                                  <div class="overlay-box">
-                                      <div class="overlay-inner overlay-content">
-                                          <h5 class="mb-0">{{name}}</h5>
-                                          <p>{{category}}</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </a>
-                  </div>
-                  {{/projects}}
-              </div>
-          </div>
-      </section>
+                <div class="row mt-5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                    {{#projects}}
+                    <div class="col-md-4 col-sm-12 mb-2r">
+                        <a href="/project/{{slug}}">
+                            <div class="position-relative project">
+                                <div class="image position-relative ">
+                                    <img src="{{{image}}}=s650-c" class="img-fluid w-100 d-block">
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner overlay-content">
+                                            <h5 class="mb-0">{{name}}</h5>
+                                            <p>{{category}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    {{/projects}}
+                </div>
+            </div>
+        </section>
 
-      <section class="py-md-5 block">
-          <div class="container">
-              <div class="row block-header">
-                  <div class="col-sm-8 mx-auto text-center">
-                      <h1 class="display-4 mt-2">Services</h1>
-                      <hr>
-                      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem in, blanditiis.</p>
-                  </div>
-              </div>
-              <div class="row mt-5">
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_1}}}">
-                      <div class="content">
-                          <h5>Web Development</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_2}}}">
-                      <div class="content">
-                          <h5>Video Marketing</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_3}}}">
-                      <div class="content">
-                          <h5>App Design</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_4}}}">
-                      <div class="content">
-                          <h5>Graphics Design</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_5}}}">
-                      <div class="content">
-                          <h5>Digital Marketing</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-                  <div class="col-md-4 service mb-5 aos-init aos-animate">
-                      <img class="icon mr-4" src="{{{page.service.img_6}}}">
-                      <div class="content">
-                          <h5>Branding Design</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <section class="py-md-5 block">
+            <div class="container">
+                <div class="row block-header">
+                    <div class="col-sm-8 mx-auto text-center">
+                        <h1 class="display-4 mt-2">{{page.services.header}}</h1>
+                        <hr>
+                        <p class="lead">{{page.services.subheader}}</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    {{#services}}
+                    <div class="col-md-4 service mb-5 aos-init aos-animate">
+                        <img class="icon mr-4" src="{{{image}}}">
+                        <div class="content">
+                            <h5>{{name}}</h5>
+                            <p>{{description}}</p>
+                        </div>
+                    </div>
+                    {{/services}}
+                </div>
+            </div>
+        </section>
 
 
 
 
-      <section class="py-md-5 block">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-8 mx-auto text-center">
-                      <h1 class="display-4 mt-2 section-title">Blog</h1>
-                  </div>
-              </div>
-              <div class="row mt-5">
-                  <div class="col-md-4 aos-init aos-animate">
-                      <div class="post mb-5">
-                          <a class="img-post" href="/post/the-17-best-tools-for-spying-on-your-competition-nqer4t">
-                              <img src="{{{page.posts.img_1}}}=s512" class="img-fluid">
-                          </a>
-                          <div class="post-content mt-2r">
-                              <span class="date">June 28, 2019</span>
-                              <a href="/post/the-17-best-tools-for-spying-on-your-competition-nqer4t"><h4>The 17 Best Tools For Spying On Your Competition</h4></a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 aos-init aos-animate">
-                      <div class="post mb-5">
-                          <a class="img-post" href="/post/5-elements-that-build-a-roster-of-terrific-clients-qrilpk">
-                              <img src="{{{page.posts.img_2}}}=s512" class="img-fluid">
-                          </a>
-                          <div class="post-content mt-2r">
-                              <span class="date">June 28, 2019</span>
-                              <a href="/post/5-elements-that-build-a-roster-of-terrific-clients-qrilpk"><h4>5 Elements That Build A Roster Of Terrific Clients</h4></a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-4 aos-init aos-animate" >
-                      <div class="post mb-5">
-                          <a class="img-post" href="/post/where-to-begin-when-its-time-to-edit-your-content-0pqsbx">
-                              <img src="{{{page.posts.img_3}}}=s512" class="img-fluid">
-                          </a>
-                          <div class="post-content mt-2r">
-                              <span class="date">June 28, 2019</span>
-                              <a href="/post/where-to-begin-when-its-time-to-edit-your-content-0pqsbx"><h4>Where To Begin When It’s Time To Edit Your Content</h4></a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <section class="py-md-5 block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 mx-auto text-center">
+                        <h1 class="display-4 mt-2 section-title">Blog</h1>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4 aos-init aos-animate">
+                        <div class="post mb-5">
+                            <a class="img-post" href="/post/the-17-best-tools-for-spying-on-your-competition-nqer4t">
+                                <img src="{{{page.posts.img_1}}}=s512" class="img-fluid">
+                            </a>
+                            <div class="post-content mt-2r">
+                                <span class="date">June 28, 2019</span>
+                                <a href="/post/the-17-best-tools-for-spying-on-your-competition-nqer4t"><h4>The 17 Best Tools For Spying On Your Competition</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 aos-init aos-animate">
+                        <div class="post mb-5">
+                            <a class="img-post" href="/post/5-elements-that-build-a-roster-of-terrific-clients-qrilpk">
+                                <img src="{{{page.posts.img_2}}}=s512" class="img-fluid">
+                            </a>
+                            <div class="post-content mt-2r">
+                                <span class="date">June 28, 2019</span>
+                                <a href="/post/5-elements-that-build-a-roster-of-terrific-clients-qrilpk"><h4>5 Elements That Build A Roster Of Terrific Clients</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 aos-init aos-animate" >
+                        <div class="post mb-5">
+                            <a class="img-post" href="/post/where-to-begin-when-its-time-to-edit-your-content-0pqsbx">
+                                <img src="{{{page.posts.img_3}}}=s512" class="img-fluid">
+                            </a>
+                            <div class="post-content mt-2r">
+                                <span class="date">June 28, 2019</span>
+                                <a href="/post/where-to-begin-when-its-time-to-edit-your-content-0pqsbx"><h4>Where To Begin When It’s Time To Edit Your Content</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <section class="py-md-5 mb-2r">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-8 mx-auto text-center">
-                      <h1 class="display-4 mt-2 section-title">{{page.contact.header}}</h1>
-                      <p>{{page.contact.subheader}}</p>
-                  </div>
-              </div>
-              <div class="row mt-5">
-                  <div class="col-sm-6 mx-auto" data-aos="fade-left" data-aos-duration="1000">
-                      <form id="contact-form" method="post">
-                          <div class="form-group">
-                              <input type="text" id="contact-form-name" class="form-control" placeholder="Name" required>
-                          </div>
-                          <div class="form-group">
-                              <input type="email" id="contact-form-email" class="form-control" placeholder="Email" required>
-                          </div>
-                          <div class="form-group">
-                              <input type="text" id="contact-form-subject" class="form-control" placeholder="Subject" required>
-                          </div>
-                          <div class="form-group">
-                              <textarea name="" id="contact-form-message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
-                          </div>
-                          <div class="form-group text-center">
-                              <input type="submit" id="btn-contact-submit" class="btn btn-primary btn-send-message" value="Send Message">
-                          </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </section>
+        <section class="py-md-5 mb-2r">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 mx-auto text-center">
+                        <h1 class="display-4 mt-2 section-title">{{page.contact.header}}</h1>
+                        <p>{{page.contact.subheader}}</p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-6 mx-auto" data-aos="fade-left" data-aos-duration="1000">
+                        <form id="contact-form" method="post">
+                            <div class="form-group">
+                                <input type="text" id="contact-form-name" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="contact-form-email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="contact-form-subject" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="contact-form-message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <input type="submit" id="btn-contact-submit" class="btn btn-primary btn-send-message" value="Send Message">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-        {{>footer}}
-    </div>
+            {{>footer}}
+        </div>
 
-    {{>scripts}}
-    <script src="{{{cdn}}}/js/contact.js"></script>
-</body>
+        {{>scripts}}
+        <script src="{{{cdn}}}/js/contact.js"></script>
+    </body>
 </html>
