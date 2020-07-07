@@ -3,11 +3,14 @@ const router = vertex.router();
 
 const ProjectController = require('../controllers/ProjectController');
 const ServiceController = require('../controllers/ServiceController');
+const PostController = require('../controllers/PostController');
 
 router.get('/', (req, res) => {
   const data = req.context;
   const projectCtr = new ProjectController();
   const serviceCtr = new ServiceController();
+  const postCtr = new PostController();
+  // const landingData = res.render('landing', data);
 
   projectCtr.get()
     .then(projects => {
@@ -19,7 +22,7 @@ router.get('/', (req, res) => {
       res.send('Error: ' + err.message);
     });
 
-    // services controller
+  // services controller
   serviceCtr.get()
     .then(services => {
       data.services = services;
@@ -30,11 +33,17 @@ router.get('/', (req, res) => {
       res.send('Error: ' + err.message);
     });
   // posts controller
-    
-});
-
-router.get('/', (req, res) => {
-  
+  postCtr.get()
+    .then(posts => {
+      data.posts = posts;
+      data['post1'] = posts[0];
+      data['post2'] = posts[1];
+      data['post3'] = posts[2];
+      console.log('Posts ' + JSON.stringify(posts));
+    })
+    .catch(err => {
+      res.send('Error: ' + err.message);
+    });
 });
 
 router.get('/project/:slug', (req, res) => {
@@ -52,6 +61,27 @@ router.get('/project/:slug', (req, res) => {
       const project = projects[0];
       data['project'] = project;
       res.render('project', data);
+    })
+    .catch(err => {
+      res.send('Error -' + err.message);
+    });
+});
+
+router.get('/post/:slug', (req, res) => {
+  const data = req.context;
+  const postSlug = req.params.slug;
+  const postCtr = new postController();
+
+  postCtr.get({slug:postSlug})
+    .then(posts => {
+      if (posts.length == 0){
+        throw new Error('Post not found');
+        return
+      }
+
+      const post = posts[0];
+      data['post'] = post;
+      res.render('post', data);
     })
     .catch(err => {
       res.send('Error -' + err.message);

@@ -24,7 +24,7 @@ const props = {
 	schema: {type:String, default:'post', immutable:true},
 	dateString: {type:String, default:'', immutable:true},
 	timestamp: {type:Date, default: new Date(), immutable:true}
-}
+};
 
 class Post extends Document {
 	constructor(){
