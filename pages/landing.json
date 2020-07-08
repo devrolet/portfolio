@@ -1,7 +1,7 @@
 { 
   
   "hero": {
-      "greeting": "GoGetter Design",
+      "greeting": "Web and Mobile App Development",
       "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
       "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
   },
@@ -11,7 +11,7 @@
 
   },
   "features":{
-    "header": "Who We Are",
+    "header": "GoGetter Design",
     "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem.",
     "feature-1": {
         "img_1": "https://lh3.googleusercontent.com/2xE3nFpetHo-ypbcA-V0PxBYXavO1Viba6zKKnOnlMmiIbZpjUE-43f23qb6PUiZ_LJN1f_MRD5X7cae3pd3MR77ww",
@@ -20,7 +20,7 @@
     }
   },
   "services": {
-    "header": "How We Serve",
+    "header": "Services",
     "subheader": "We offer an array of digital services to help our clients reach their online goals."
   },
   "posts": {
@@ -29,7 +29,7 @@
       "img_3": "https://lh3.googleusercontent.com/t30wrPfo4FmOco_vMWoskZvzp0T5RXTzI9gF6tyA0yRjPdVdtFag8CX_qBhVpfvFE1DfQ-F3OOrKAVXHU2jFbszAzA"
   },
   "contact": {
-    "header": "Let's Work Together!!",
+    "header": "Get In Touch",
     "subheader": "If you're interested in working with us, fill out the form below and we will contact you right away."
   }
 }
