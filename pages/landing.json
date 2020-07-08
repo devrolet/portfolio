@@ -5,11 +5,6 @@
       "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
       "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
   },
-  "projects": {
-    "header": "Our Projects",
-    "subheader": "Excellent examples of our most recent work"
-
-  },
   "features":{
     "header": "GoGetter Design",
     "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem.",
@@ -19,14 +14,16 @@
         "img_3": "https://lh3.googleusercontent.com/1aAg8EhHd5kQMsDzgwcctExCzV6ZMEebcqXU_iFm_GoLrBYDcqWmh8GeWok_ILS_1Dt1yQughMeCQYx-3mM9FXtLAg"
     }
   },
+  "projects": {
+    "header": "Our Projects",
+    "subheader": "Excellent examples of our most recent work"
+  },
   "services": {
     "header": "Services",
     "subheader": "We offer an array of digital services to help our clients reach their online goals."
   },
   "posts": {
-      "img_1": "https://lh3.googleusercontent.com/Xda6C4oENDLRR3A4g6vDvUdcwyruvOWhCe_2SEtdoMWvrtfIziVqW8A98cYvz9a-Hx1L9N_tcRTI5Gl5CtOpG7tt",
-      "img_2": "https://lh3.googleusercontent.com/Ot_adwnbYyBOE00JK5Ymk4v4t9rOxnesziL9N6xbDUSO3CUj4nDE7uGGTONT76eCIid22P5UwwD7xlenJbsXC-qs5w",
-      "img_3": "https://lh3.googleusercontent.com/t30wrPfo4FmOco_vMWoskZvzp0T5RXTzI9gF6tyA0yRjPdVdtFag8CX_qBhVpfvFE1DfQ-F3OOrKAVXHU2jFbszAzA"
+      "header": "Blog"
   },
   "contact": {
     "header": "Get In Touch",
