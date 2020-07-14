@@ -1,17 +1,27 @@
 { 
   
   "hero": {
-      "greeting": "Web and Mobile App Development",
-      "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
-      "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
+    "greeting": "Web and Mobile App Development",
+    "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
+    "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
   },
   "features":{
     "header": "GoGetter Design",
-    "subheader": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, totam ipsa quia hic odit a sit laboriosam voluptatem.",
-    "feature-1": {
-        "img_1": "https://lh3.googleusercontent.com/2xE3nFpetHo-ypbcA-V0PxBYXavO1Viba6zKKnOnlMmiIbZpjUE-43f23qb6PUiZ_LJN1f_MRD5X7cae3pd3MR77ww",
-        "img_2": "https://lh3.googleusercontent.com/BnafqiS-WCKqtIVUr3I6NZ7CfhWcC4totDl5uWAvsQwMKh6TSa5GtdFrAjKUdv0J84H1pY1x_gdN9-O94qFV0ADX_t8",
-        "img_3": "https://lh3.googleusercontent.com/1aAg8EhHd5kQMsDzgwcctExCzV6ZMEebcqXU_iFm_GoLrBYDcqWmh8GeWok_ILS_1Dt1yQughMeCQYx-3mM9FXtLAg"
+    "subheader": "We are a distributed team of digital designers, developers, and marketing consultants commited to helping our clients reach their online goals.",
+    "feature1": {
+      "name": "UI/UX Design",
+      "img": "https://lh3.googleusercontent.com/1aAg8EhHd5kQMsDzgwcctExCzV6ZMEebcqXU_iFm_GoLrBYDcqWmh8GeWok_ILS_1Dt1yQughMeCQYx-3mM9FXtLAg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    },
+    "feature2": {
+      "name": "App Development",
+      "img": "https://lh3.googleusercontent.com/BnafqiS-WCKqtIVUr3I6NZ7CfhWcC4totDl5uWAvsQwMKh6TSa5GtdFrAjKUdv0J84H1pY1x_gdN9-O94qFV0ADX_t8",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    },
+    "feature3": {
+      "name": "DevOps",
+      "img": "https://lh3.googleusercontent.com/2xE3nFpetHo-ypbcA-V0PxBYXavO1Viba6zKKnOnlMmiIbZpjUE-43f23qb6PUiZ_LJN1f_MRD5X7cae3pd3MR77ww",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
     }
   },
   "projects": {

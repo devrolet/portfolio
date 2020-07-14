@@ -1,0 +1,40 @@
+
+JUMBOTRON 
+-Header 
+  Web and Mobile App Development
+-Subheader 
+-CTA 
+-Image 
+
+ABOUT 
+- GoGetter Design 
+- We are a distributed team of digital designers, developers, and marketing consultants commited to helping our clients reach their online goals. 
+
+x3
+- pencil/ruler  
+- ui/ux design
+- we transform your app ideas into user stories and personas, wireframes, mockups and interactive prototypes. color theory/palettes. We create dynamic user experiences, save time and money by determining the look and feel of the application before a single line of code is written. What colors, fonts, etc are important to your business? Why? Is it consistent with your branding strategy?
+
+- Screens 
+- App Development 
+- front end development backend development database design and admistration. we translate designs into responsive web development, test-driven code, 
+
+- Icon 
+- DevOps
+- Description
+
+PROJECTS
+Music Streaming 
+Media Sharing
+Social Media
+E-Commerce
+Gig-Economy 
+
+
+SERVICES
+-Subheader 
+x6
+-Icon
+-Service 
+-Blurb
+
