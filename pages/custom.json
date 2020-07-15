@@ -1,0 +1,31 @@
+{
+  "carousel": {
+    "slide1": {
+      "header": "App Design & Development",
+      "subheader": "This is the first slide",
+      "img": "",
+      "cta": {
+        "button-text": "Learn More",
+        "url": ""
+      }
+    },
+    "slide2": {
+      "header": "Blockchain Development",
+      "subheader": "This is the second slide",
+      "img": "",
+      "cta": {
+        "button-text": "Learn More",
+        "url": ""
+      }
+    },
+    "slide3": {
+      "header": "Planning & Consulting",
+      "subheader": "This is the third slide",
+      "img": "",
+      "cta": {
+        "button-text": "Learn More",
+        "url": ""
+      }
+    }
+  }
+}
