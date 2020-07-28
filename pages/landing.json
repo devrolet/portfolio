@@ -3,25 +3,25 @@
   "hero": {
     "greeting": "Web and Mobile App Development",
     "introduction": "We design, develop, and launch web and mobile applications. Helping startups start up since 2005.",
-    "img_background": "https://lh3.googleusercontent.com/N1UMk6KtIHi04aGH4e1kI69MXZ18Vl4SD9gOOl7EPwOlFr5-31Ml7-PfF9O7s1NhBmWJ-yIGw3u8brAxHJlZTH-bBg"
+    "img_background": "https://lh3.googleusercontent.com/itewUvHxz9itiSRv_iG5MSA4I2dIjg46io7vYcoef6pUAPmdI1P0mIDTwvRQ0pVUal5NMQ492orgviFoz-1yUH77"
   },
   "features":{
-    "header": "GoGetter Design",
-    "subheader": "We are a distributed team of digital designers, developers, and marketing consultants commited to helping our clients reach their online goals.",
+    "header": "Our Focus",
+    "subheader": "We are a distributed team of digital designers, developers, and marketing consultants committed to helping our clients reach their online goals.",
     "feature1": {
       "name": "UI/UX Design",
       "img": "https://lh3.googleusercontent.com/1aAg8EhHd5kQMsDzgwcctExCzV6ZMEebcqXU_iFm_GoLrBYDcqWmh8GeWok_ILS_1Dt1yQughMeCQYx-3mM9FXtLAg",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      "desc": "After a lengthy planning stage, we create user stories and personas, wireframes, and interactive prototypes to create the best user experience possible before writing a single line of code."
     },
     "feature2": {
       "name": "App Development",
       "img": "https://lh3.googleusercontent.com/BnafqiS-WCKqtIVUr3I6NZ7CfhWcC4totDl5uWAvsQwMKh6TSa5GtdFrAjKUdv0J84H1pY1x_gdN9-O94qFV0ADX_t8",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      "desc": "We translate the design into pixel-perfect code while providing functionality and access to backend APIs, microservices, and databases. We specialize in modern, progressive MEAN/MERN and iOS apps."
     },
     "feature3": {
       "name": "DevOps",
       "img": "https://lh3.googleusercontent.com/2xE3nFpetHo-ypbcA-V0PxBYXavO1Viba6zKKnOnlMmiIbZpjUE-43f23qb6PUiZ_LJN1f_MRD5X7cae3pd3MR77ww",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+      "desc": "We deploy our applications to cloud servers such as Amazon Web Services(AWS), Linode, and Digital Ocean. Store and serve media to your customers using our services."
     }
   },
   "projects": {
